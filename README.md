@@ -1,10 +1,10 @@
-# MunchIt Frontend
+# FoodMaster
 
-Welcome to the frontend repository of MunchIt, the cutting-edge food ordering platform that's changing the way you enjoy your favorite meals! 🍔🥗🌮
+Welcome to the frontend repository of foodMaster, the cutting-edge food ordering platform that's changing the way you enjoy your favorite meals! 🍔🥗🌮
 
-## About MunchIt
+## About FoodMaster
 
-MunchIt is a full-stack food ordering web app and mobile app built with the powerful MERN stack (MongoDB, Express.js, React.js, Node.js), enhanced with TypeScript for security and code clarity, and styled with Tailwind CSS for beautiful and responsive design. The frontend part of MunchIt is responsible for delivering a delightful user experience for both foodies and restaurant owners alike.
+FoodMaster is a full-stack food ordering web app and mobile app built with the powerful MERN stack (MongoDB, Express.js, React.js, Node.js), enhanced with TypeScript for security and code clarity, and styled with Tailwind CSS for beautiful and responsive design. The frontend part of MunchIt is responsible for delivering a delightful user experience for both foodies and restaurant owners alike.
 
 ## Features
 
@@ -17,11 +17,11 @@ MunchIt is a full-stack food ordering web app and mobile app built with the powe
 ## Getting Started
 
 1. **Clone the Repository**: 
-git clone https://github.com/yourusername/munchit-frontend.git
+git clone https://github.com/yourusername/foodMaster.git
 
 
 2. **Install Dependencies**: 
-cd munchit-frontend
+cd FoodMaster
 npm install
 
 
