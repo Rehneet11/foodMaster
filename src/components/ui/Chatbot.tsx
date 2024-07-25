@@ -9,7 +9,7 @@ interface ChatMessage {
 const Chatbot: React.FC = () => {
     const [showChatbot, setShowChatbot] = useState(false);
     const [messages, setMessages] = useState<ChatMessage[]>([
-        { sender: "Bot", content: "Welcome to MunchIt.com 😍😊" }
+        { sender: "Bot", content: "Welcome to FoodMaster 😍😊" }
     ]);
     
 
@@ -46,7 +46,7 @@ const Chatbot: React.FC = () => {
                 onClick={toggleChatbotPanel}
             >
                 <div className="bg-black p-2 rounded-lg">
-                <BotMessageSquare className="text-orange-500 text-2xl "/>
+                <BotMessageSquare className="text-green-500 text-2xl "/>
                 </div>
             </div>
             )}
@@ -74,7 +74,7 @@ const Chatbot: React.FC = () => {
                         />
                         <button
                             onClick={sendMessage}
-                            className="px-4 py-2 bg-orange-800 text-white rounded-r-lg"
+                            className="px-4 py-2 bg-green-800 text-white rounded-r-lg"
                         >
                             Send
                         </button>

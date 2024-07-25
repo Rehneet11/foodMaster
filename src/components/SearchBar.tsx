@@ -49,7 +49,7 @@ const SearchBar=({onSubmit,onReset,placeHolder,searchQuery}:Props)=>{
             ${form.formState.errors.searchQuery && "border-red-500"}`}>
                 <SearchIcon strokeWidth={2.5} 
                 size ={30} 
-                className="ml-1 text-orange-500 hidden md:block"/>
+                className="ml-1 text-green-500 hidden md:block"/>
                 <FormField control={form.control} name="searchQuery" render ={({field})=>
                 <FormItem className="flex-1">
                     <FormControl>
@@ -66,7 +66,7 @@ const SearchBar=({onSubmit,onReset,placeHolder,searchQuery}:Props)=>{
                 </Button>
 
                 <Button type="submit" 
-                className="rounded-full bg-orange-500">
+                className="rounded-full bg-green-500">
                     Search
                 </Button>
             </form>

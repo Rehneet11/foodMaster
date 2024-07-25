@@ -33,7 +33,7 @@ const onLogin=async()=>{
     if(!isAuthenticated){
         return( 
         <Button 
-            className="bg-orange-500 flex-1"
+            className="bg-green-500 flex-1"
             onClick={onLogin}>
             Log in to Check out
         </Button>
@@ -46,7 +46,7 @@ const onLogin=async()=>{
     return(
         <Dialog>
             <DialogTrigger asChild>
-                <Button disabled={disabled} className="bg-orange-500 rounded-lg flex-1">
+                <Button disabled={disabled} className="bg-green-500 rounded-lg flex-1">
                     Checkout
                 </Button>
             </DialogTrigger>
